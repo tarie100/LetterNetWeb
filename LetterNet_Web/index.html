@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LetterNet</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li class="right-align">
+            <a href="#" id="signUpLink">Sign Up</a>
+          </li>
+          <li class="right-align">
+            <a href="#" id="loginLink">Login</a>
+          </li>
+          <li>
+            <select id="categoryDropdown" aria-placeholder="Categories">
+              <option value="" disabled selected hidden>Categories</option>
+              <option value="category1">Academics</option>
+              <option value="category2">Motivation</option>
+              <option value="category3">Daily Devotion</option>
+              <option value="category4">Stories</option>
+            </select>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container">
+    <h1>LetterNet.... Inspiring Minds, Empowering Lives!</h1>
+    <br />
+    <!--<div class="center">
+      <img src="images/edumot.jpg" alt="edumot" />
+    </div>-->
+    <form id="loginForm">
+      <input type="text/email" id="username" placeholder="Username/Email" />
+      <input type="password" id="password" placeholder="Password" />
+      <button type="submit" onclick="submitform()" id="signup-btn">Login</button>
+    </form>
+
+    <form id="signUpForm">
+      <input type="text" id="name" placeholder="Name" required />
+      <input type="text" id="surname" placeholder="Surname" required/>
+      <input type="email" id="email" placeholder="Email" required />
+      <input type="text" id="Username" placeholder="Username" required />
+      <input type="password" id="Password" placeholder="Password" required />
+      <input type ="password" id="confirmPassword" placeholder="Confirm Password" required/>
+      <!--<select id="userType">
+        <option value="reader">Reader</option>
+        <option value="creator">Content Creator</option>
+      </select>-->
+      <button type="submit" id="signup-btn">Sign Up</button>
+    </form>
+    <div class="center">
+      <img src="images/edumot.jpg" alt="edumot" />
+    </div>
+    </div>
+    <p id="about">
+      LetterNet is a cutting-edge platform that aims to deliver valuable
+      educational and motivational content to users. With its user-friendly
+      interface and robust features, LetterNet provides an engaging and
+      personalised experience for both content creators and readers. All you
+      have to do is create an account on our website and you will have access to
+      all newsletters. You have the liberty to customize your newsletters, we
+      have various categories you can select from. <br /><br />Oh and yes! do
+      not worry about your privacy since you will be using your credentials to
+      login, it's all stored safely; we have a privacy policy in place,
+      encryption so noone can access your private information, rest assured.
+      Nomatter who you are; whether you are a student, a professional, or you
+      are seeking self-growth, you have lost direction and purpose, we are here
+      to hold your hand so that we keep going together and never give up. And we
+      are not just that, we are a huge and friendly community; we help each
+      other, we engage, we share knowledge and insights so we are basically a
+      family. Why don't you give it a try, you might just be the person we have
+      been waiting for to make our family complete. Follow the links below for
+      reviews and newsletters!
+    </p>
+    <footer id="contact">
+        Email us: <a href="#">LetterNet@org.com</a>
+      </footer>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
