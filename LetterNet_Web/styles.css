@@ -1,0 +1,79 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    display: inline;
+    margin-right: 10px;
+    font-size: larger;
+}
+header {
+    background-color: beige;
+    height: 60px;
+}
+ .right-align {
+    float: right;
+ }
+ #signUpForm, #loginForm{
+    display: none;
+ }
+ 
+ img{
+    width: 100%;
+    height: 500px;
+    border-radius: 30px;
+    position: relative;
+    z-index: 1;
+ }
+ body{
+    background-color: bisque;
+    
+ }
+ footer{
+    background-color: beige;
+    height: 60px;
+}
+#tit{
+    font-size: xx-large;
+}
+p{
+    font-style: oblique;
+    font-weight: 600;
+}
+#categoryDropdown option {
+    background-color: transparent;
+}
+#categoryDropdown option:checked{
+    background-color: aquamarine;
+}
+select{
+    padding: 10px;
+    font-size: 16px;
+}
+#infobox{
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 600px;
+    max-height: 300px;
+    overflow-y: auto;
+    position: relative;
+    z-index: 2;
+}
+#infobox{
+    overflow-y: scroll;
+    background-color: transparent;
+}
+#infobox.show-background{
+    background-color: black;
+    color: white;
+}
+#tit {
+    font-family: "Metal Mania", system-ui;
+    font-weight: 800;
+    font-style:oblique;
+    font-size: 50px;
+    color: rgba(10, 12, 11, 0.808);
+  }
+  
