@@ -1,4 +1,4 @@
 LetterNet is a cutting-edge platform that aims to deliver valuable educational and motivational content to users. Our user-friendly interface and robust features provide an engaging and personalized experience for both content creators and readers. By creating an account on our website, you gain access to a wide range of newsletters that can be customized to suit your interests. Rest assured, your privacy is our top priority. We have implemented strict security measures, including encryption, to safeguard your personal information.
 
 Whether you are a student, a professional, or someone seeking self-growth and direction, LetterNet is here to guide you. We believe in the power of community and foster a warm and friendly environment where members support and inspire each other. Join our family today and discover the knowledge, insights, and connections that can elevate your journey
-![alt text](<Screenshot (7)-1.png>)
+![alt text](<LetterNet_Web/Screenshot (7).png>)
